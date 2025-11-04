@@ -37,7 +37,6 @@ imc-app/
 └── README.md ← (este arquivo)
 
 yaml
-Copiar código
 
 ---
 
@@ -51,60 +50,49 @@ cd imc-app
 Entre na pasta do backend:
 
 bash
-Copiar código
 cd backend
 Crie e ative o ambiente virtual:
 
 bash
-Copiar código
 python -m venv venv
 .\venv\Scripts\activate   # no Windows
 Instale as dependências:
 
 bash
-Copiar código
 pip install -r requirements.txt
 Inicie o servidor:
 
 bash
-Copiar código
 python app.py
 O servidor Flask rodará em:
 
 arduino
-Copiar código
 http://localhost:2500
 3️⃣ Rodar o Frontend (React)
 Abra outro terminal e vá para a pasta frontend:
 
 bash
-Copiar código
 cd ../frontend
 Instale as dependências:
 
 bash
-Copiar código
 npm install
 Inicie o app React:
 
 bash
-Copiar código
 npm start
 O React será aberto automaticamente em:
 
 arduino
-Copiar código
 http://localhost:3000
 🔄 Comunicação Frontend ↔ Backend
 O React envia uma requisição POST para o endpoint:
 
 bash
-Copiar código
 http://localhost:2500/calcular-imc
 O backend Flask processa os dados (altura e peso) e retorna:
 
 json
-Copiar código
 {
   "imc": 26.7,
   "classificacao": "Sobrepeso"
