@@ -97,32 +97,11 @@ json
   "imc": 26.7,
   "classificacao": "Sobrepeso"
 }
+
 🧠 Fórmula do IMC
-𝐼
-𝑀
-𝐶
-=
-𝑝
-𝑒
-𝑠
-𝑜
-(
-𝑎
-𝑙
-𝑡
-𝑢
-𝑟
-𝑎
-)
-2
-IMC= 
-(altura) 
-2
- 
-peso
-​
- 
-Classificação	IMC (kg/m²)
+IMC = peso / (altura * altura)
+
+​Classificação	IMC (kg/m²)
 Abaixo do peso	< 18.5
 Peso normal	18.5 – 24.9
 Sobrepeso	25.0 – 29.9
