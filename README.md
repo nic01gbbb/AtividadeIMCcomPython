@@ -44,7 +44,7 @@ yaml
 
 ### 1️⃣ Clonar o repositório
 ```bash
-git clone https://github.com/SEU_USUARIO/imc-app.git
+git clone https://github.com/nic01gbbb/AtividadeIMCcomPython.git
 cd imc-app
 2️⃣ Rodar o Backend (Flask)
 Entre na pasta do backend:
