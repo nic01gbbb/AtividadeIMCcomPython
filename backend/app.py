@@ -7,7 +7,7 @@ import psycopg2
 # ============================================================
 DB_HOST = "localhost"
 DB_USER = "postgres"
-DB_PASS = "dev96"  # <- coloque sua senha correta
+DB_PASS = "SUA SENHA AQUI"  # <- coloque sua senha correta
 DB_PORT = "5432"
 DB_NAME = "imcdb"
 
